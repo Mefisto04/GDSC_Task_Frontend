@@ -136,9 +136,10 @@ a {
   padding-top: .5rem;
 }
 .main .p2{
-  font-size: 3rem;
+  font-size: 2.3rem;
   color: var(--text-colour);
   padding-top: 1rem;
+  text-align: center;
 }
 .main .img0{
   position: relative;
@@ -727,16 +728,21 @@ p{
 
 @media (min-width: 1440px) {
 	html{
-    font-size: 60%;
+    font-size: 61.5%;
   }
 }
-@media (min-width: 1220px) {
+/* @media (min-width: 1220px) {
 	html{
     font-size: 58%;
   }
-}
+} */
 @media (min-width: 990px) {
 	html{
-    font-size: 60%;
+    font-size: 61%;
+  }
+}
+@media (min-width: 480px) {
+	.main2 .p2{
+    font-size: 2rem;
   }
 }
