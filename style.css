@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
 }
 html{
   font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
 }
 :root{
   --bg-colour:#ffffff ;
@@ -140,6 +142,9 @@ a {
   color: var(--text-colour);
   padding-top: 1rem;
   text-align: center;
+
+  padding-left: 18rem;
+    padding-right: 18rem;
 }
 .main .img0{
   position: relative;
@@ -176,6 +181,7 @@ a {
   font-size: 4rem;
   color: var(--text-colour);
   font-weight: bold;
+  height: 10rem;
 }
 section{
   min-height: 100rem;
@@ -200,6 +206,9 @@ section{
   border-radius: 1.0rem;
   align-items: center;
   text-align: right;
+
+  padding-right: 5rem;
+  margin-right: 10rem;
 }
 /* .main2 .c1 .img1{
   height: 15rem;
@@ -231,6 +240,9 @@ section{
   border-left: 1rem #0F9D56 solid;
   border-radius: 1rem;
   align-items: center;
+
+  padding-left: 5rem;
+  margin-left: 10rem;
 }
 
 .main2 .p3{
@@ -248,6 +260,9 @@ section{
   border-right: 1rem #DB4437 solid;
   border-radius: 1rem;
   align-items: center;
+
+  padding-right: 5rem;
+  margin-right: 10rem;
 }
 .main3{
   background-color: var(--bg-colour);
@@ -739,10 +754,5 @@ p{
 @media (min-width: 990px) {
 	html{
     font-size: 61%;
-  }
-}
-@media (min-width: 480px) {
-	.main2 .p2{
-    font-size: 2rem;
   }
 }
